@@ -1,19 +1,8 @@
-$hoofdkleur: #2859BC;
-$hoofdkleur-lichter: #4F82FF;
-$secundaire-kleur: #81d742;
-$secundaire-kleur-donker: #48592D;
-$contrast-kleur: #FF652A;
-$achtergrond-donkerder: #cccccc;
-
-/* reset */
-
-* {
-  margin: 0;
-  padding: 0;
-}
+@import 'variabelen';
+@import 'reset';
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: $mijnFont;
 }
 
 header {
