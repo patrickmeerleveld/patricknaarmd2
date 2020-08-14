@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Theo den Blanken, hier jouw naam">
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/123jouwAPIkey.js"></script>
+    <title>Site met Sass</title>
+</head>
+<body>
+    <input type="checkbox" id="haal-menu">
+    <div class="logo"><i class="fab fa-sass"></i></div>
+    <label class="menu-halen" for="haal-menu"><i class="fas fa-bars"></i><i class="fas fa-times"></i></label>
+    <link rel="stylesheet" href="css/style.css">
+    <nav>
+        <ul>
+            <li><a href="#" class="actief">Home</a></li>
+            <li><a href="#">Over ons</a></li>
+            <li><a href="#">Aanbod</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <header>
+            <h1>Site met Sass</h1>
+            <p>een oefening voor FRO</p>
+            <button class="knop">meer</button>
+        </header>
+        <main>
+            <section>
+                <h2><i class="fas fa-globe-europe"></i></h2>
+                <p>
+                    Deze pagina kan ook zonder Sass gemaakt worden. Met Sass is het echter overzichtelijker voor de developer. De Sass bestanden worden wel op GitHub geplaatst maar staan niet in de upload: ze zijn immers alleen voor de ontwikkelaar, de CSS wordt eruit gecompileerd.
+                </p>
+                <div class="knop-houder">
+                    <button class="knop">meer</button>
+                </div>
+            </section>
+            <section>
+                <h2><i class="fas fa-headphones-alt"></i></h2>
+                <p>
+                    De belangrijkste onderdelen van deze training zijn de installatie en het starten van Sass, het verschil tussen .scss- en .sass-bestanden. Pas dat hier zeker toe.
+                </p>
+
+                <div class="knop-houder">
+                    <button class="knop">meer</button>
+                </div>
+            </section>
+            <section>
+                <h2><i class="fab fa-pagelines"></i></h2>
+                <p>
+                    UIt het rijke palet van mogelijkheden van Sass gebruik je hier in ieder geval variabelen en partials. Probeer ook mixins en bedenk je eigen namen voor bestanden en variabelen. Maak ook eens een andere keuze voor .sass/.scss dan de instructie!
+                </p>
+                <div class="knop-houder">
+                    <button class="knop">meer</button>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p class="auteur">&copy; Hier jouw naam</p>
+            <div id="validatie">
+                <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+                    <img src="https://blanken5.home.xs4all.nl/afb/valid-html5-blue.png" alt="Valide HTML5"></a>
+                <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+                    <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
+                </a>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
