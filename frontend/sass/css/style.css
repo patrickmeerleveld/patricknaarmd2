@@ -31,4 +31,18 @@ header p {
   padding: 1em;
 }
 
+.knop {
+  background-color: #81d742;
+  color: #3a6a16;
+  font-size: 1.1em;
+  padding: 0.5em 2em;
+}
+.knop:hover {
+  background-color: #3a6a16;
+  color: #fff;
+}
+.knop-houder {
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */

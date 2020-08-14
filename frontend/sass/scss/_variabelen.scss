@@ -3,7 +3,7 @@
 $hoofdkleur: #2859BC;
 $hoofdkleur-lichter: #4F82FF;
 $secundaire-kleur: #81d742;
-$secundaire-kleur-donker: #48592D;
+$secundaire-donker: darken($secundaire-kleur, 30);
 $contrast-kleur: #FF652A;
 $achtergrond-donkerder: #cccccc;
 
