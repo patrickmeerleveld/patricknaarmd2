@@ -71,6 +71,32 @@ nav a.actief {
   padding: 0.3em 2rem 0.3em 5em;
 }
 
+@media screen and (min-width: 750px) {
+  /* Navigatie horizontaal */
+  .menu-halen {
+    display: none;
+  }
+
+  nav {
+    position: relative;
+    float: right;
+    width: auto;
+    text-align: right;
+    font-size: 1.3em;
+  }
+  nav li {
+    display: inline-block;
+  }
+  nav a {
+    display: inline-block;
+    padding: 0.5em 2em 0.5em 2em;
+    border-bottom: 0;
+  }
+
+  .container {
+    clear: both;
+  }
+}
 /* Header */
 header {
   background-color: #2859BC;
