@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
-/* Mixin */
 /* reset */
 * {
   margin: 0;
@@ -28,6 +27,29 @@ section h2 {
   text-align: center;
 }
 
+@media screen and (min-width: 900px) {
+  /* Main-Desktop */
+  .container {
+    min-height: calc(100vh - 3rem);
+    display: grid;
+    grid-template-rows: 1fr 2fr auto;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3em;
+    padding: 0 3em;
+  }
+  main .knop-houder {
+    border-bottom: 0;
+  }
+
+  section {
+    display: grid;
+    grid-template-rows: auto 1fr 6em;
+  }
+}
 /* Navigatie */
 nav {
   background-color: #ddd;
@@ -94,6 +116,10 @@ nav a.actief {
     display: inline-block;
     padding: 0.5em 2em 0.5em 2em;
     border-bottom: 0;
+    background-color: #fff;
+  }
+  nav a:hover {
+    background-color: #ddd;
   }
 
   .container {
