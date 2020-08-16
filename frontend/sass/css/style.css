@@ -5,18 +5,6 @@
   padding: 0;
 }
 
-body {
-  font-family: "Montserrat", sans-serif;
-}
-
-.logo {
-  background-color: #81d742;
-  display: inline-block;
-  font-size: 1.5em;
-  padding: 0.5em;
-  color: #3a6a16;
-}
-
 header {
   background-color: #2859BC;
   color: #fff;
@@ -31,6 +19,43 @@ header p {
   padding: 1em;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  padding: 0 2em;
+}
+
+section {
+  color: #3a6a16;
+}
+section h2 {
+  font-size: 2em;
+  padding: 1em;
+  text-align: center;
+}
+
+footer {
+  background-color: #2859BC;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+  border-bottom: 4px solid #80a1e4;
+}
+footer p {
+  padding: 2em;
+  display: inline-block;
+}
+
+.logo {
+  background-color: #81d742;
+  display: inline-block;
+  font-size: 1.5em;
+  padding: 0.5em;
+  color: #3a6a16;
+}
+
 .knop {
   background-color: #81d742;
   color: #3a6a16;
@@ -43,6 +68,8 @@ header p {
 }
 .knop-houder {
   text-align: center;
+  padding: 1em 0 1.5em;
+  border-bottom: 1px solid #3a6a16;
 }
 
 /*# sourceMappingURL=style.css.map */
