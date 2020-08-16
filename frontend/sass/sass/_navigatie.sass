@@ -1,0 +1,16 @@
+/* Navigatie */
+
+nav
+  background-color: #ddd
+  position: absolute
+  a
+    text-decoration: none
+    display: block
+    padding: .5em 5em .5em 2em
+    border-bottom: 1px solid #fff
+    color: $secundaire-donker
+    &.actief
+      border-bottom: 4px solid $contrast-kleur
+
+#haal-menu:checked ~ .container
+  left: 10em
