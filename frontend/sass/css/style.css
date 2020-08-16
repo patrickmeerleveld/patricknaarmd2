@@ -151,14 +151,8 @@ footer {
   background-color: #2859BC;
   color: #fff;
   padding: 1em 0;
+  text-align: center;
   border-bottom: 4px solid #80a1e4;
-}
-footer p {
-  padding: 2em 2em 0;
-}
-footer #validatie {
-  padding: 0 2em 2em;
-  text-align: right;
 }
 
 /* Logo */
